@@ -7,21 +7,30 @@
     <meta name="discription" content="プログラミング学習サイトのドットインストールです。">
     <link rel="icon" href="favicon.ico">
   </head>
+
+
   <body>
     <img src="/Users/koudzukikensei/github/MyHTMLProject/img/logo.png" alt="ドットインストールのロゴです" width="240" height="40">
+
+  <ul>
+    <li><a href="#features">サイトの特徴</a></li>
+    <li><a href="#ranking">人気のランキング</a></li>
+  </ul>
+
 
     <h1>ドットインストール</h1>
       <p>プログラミング学習サイトです！</p>
 
-    <h2>サイトの特徴</h2>
+    <h2 id="features">サイトの特徴</h2>
       <p>こういう特徴があります。こういう特徴があります。こういう特徴があります。こういう特徴があります。</p>
-      <hr>
+      <!-- <hr> -->
       <p>こういう特徴があります。<br>こういう特徴があります。こういう特徴があります。<br><strong>特に大事なポイントです！</strong><br>こういう特徴があります。</p>
       <blockquote>
           <p>HTMLは大事 by ドットインストール</p>
       </blockquote>
 
-    <h2>人気ランキング</h2>
+
+    <h2 id="ranking">人気ランキング</h2>
       <p>今、人気のレッスンはこちらです</p>
       <ol reversed start="10">
         <li>HTML入門</li>
@@ -29,6 +38,31 @@
         <li>Javascript入門</li>
       </ol>
       <p><a href="more_lessons.html">もっと見る</a></p>
+
+
+      <h2>お問い合わせ</h2>
+      <form>
+        <p>
+          <label for="name">氏名</label>
+          <!-- <input type="text" id="name" value="名無し"> -->
+          <input type="text" id="name" placeholder="姓名を入力してください">
+        </p>
+        <p>
+          <label for="message">メッセージ</label>
+          <!-- <textarea id="message" >メッセージを入力してください。</textarea> -->
+          <textarea id="message" placeholder="140文字以内"></textarea>
+        </p>
+        <p>
+          <input type="submit" value="送信">
+        </p>
+      </form>
+
+
+      <ul>
+        <li><a href="https://twitter.com/dotinstall" target="_blank">Twitter</a></li>
+        <li><a href="mailto:uruseiyatujp@gmail.com" target="_blank">Mail</a></li>
+      </ul>
+
 
     <h2>レッスン一覧</h2>
     <ul>
@@ -55,6 +89,8 @@
       <dt>質問3</dt>
       <dd>回答3</dd>
     </dl>
+
+    <p><a href="#">TOPへ</a></p>
 
   </body>
 </html>
